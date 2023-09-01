@@ -84,6 +84,8 @@ main{
     overflow: auto;
 }
 
+/* HEADER MAIN */
+
 .header-main{
     width: 100%;
     background-color: #1B72E8;
@@ -109,7 +111,13 @@ main{
     font-size: 2rem;
 }
 
-.img-class{
+.header-main .custom-offcanvas{
+    width: 100%;
+}
+
+/* CONTENT MAIN */
+
+.content-main .img-class{
     width: 25px;
 }
 
@@ -120,7 +128,7 @@ main{
     border-radius: 5px;
 }
 
-main td{
+.content-main td{
     text-align: center;
 }
 
@@ -134,4 +142,9 @@ main td{
     main{
         width: calc(100% - 150px);
     }
+
+    .header-main .custom-offcanvas{
+        width: 50%;
+    }
+    
 }
