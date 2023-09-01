@@ -1,5 +1,5 @@
 [class^="col"]{
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
 /* HEADER */
@@ -41,7 +41,7 @@ header i{
 }
 
 
-.btn-custom{
+header .btn-custom{
     border: none;
     background-color: white;
 }
@@ -76,12 +76,28 @@ aside .icons:hover{
     background-color: rgba(255, 255, 255, .5);
 }
 
+/* MAIN */
+
 main{
     width: calc(100% - 75px);
     height: calc(100vh - 100px);
-    background-color: brown;
     border: 1px solid black;
     overflow: auto;
+}
+
+.img-class{
+    width: 25px;
+}
+
+main .btn-custom{
+    color: #6C757D;
+    border: 1px solid #6C757D;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+}
+
+main td{
+    text-align: center;
 }
 
 .dc-container{
