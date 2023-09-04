@@ -19,16 +19,16 @@
 
         <div class="container-fluid bg-container">
             <div class="row dc-row">
-                <div class="col-2 d-flex justify-content-center align-items-center">
-                    <div class="logo-small d-md-none">
+                <div class="col-1  col-lg-2 d-flex justify-content-center align-items-center">
+                    <div class="logo-small d-lg-none">
                         <img src="img/mobile-logo.png" alt="">
                     </div>
-                    <div class="logo-big d-none d-md-block">
+                    <div class="logo-big d-none d-lg-block">
                         <img src="img/logo.svg" alt="">
                     </div>
                 </div>
 
-                <div class="col-9 col-md-8">
+                <div class="col-10 col-lg-8">
                     <nav class="navbar">
                         <form class="container-fluid">
                             <div class="input-group p-2 input-custom">
@@ -39,12 +39,12 @@
                       </nav>       
                 </div>
 
-                <div class="col-1  col-md-2 d-flex align-items-center justify-content-end">
+                <div class="col-1  col-lg-2 d-flex align-items-center justify-content-end">
 
                     <ul class="d-flex list-unstyled align-items-center mt-3">
-                        <li class="ms-4 d-none d-md-block"><i class="fa-solid fa-list-ul"></i></li>
-                        <li class="ms-4 d-none d-md-block"><i class="fa-solid fa-circle-question"></i></li>
-                        <li class="ms-4 d-none d-md-block"><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                        <li class="ms-4 d-none d-lg-block"><i class="fa-solid fa-list-ul"></i></li>
+                        <li class="ms-4 d-none d-lg-block"><i class="fa-solid fa-circle-question"></i></li>
+                        <li class="ms-4 d-none d-lg-block"><i class="fa-solid fa-ellipsis-vertical"></i></li>
                         <li class="ms-4">
                             <div class="dropdown">
                                 <button class="btn-custom" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -74,20 +74,20 @@
             <div class="aside-top text-center d-flex flex-column align-items-center my-4">
 
                 <div class="icons py-2">
-                    <a href="#"><i class="fa-solid fa-house"></i><span class="d-none d-md-inline-block ms-3">Home</span></a>
+                    <a href="#"><i class="fa-solid fa-house"></i><span class="d-none d-lg-inline-block ms-3">Home</span></a>
                 </div>
                 <div class="icons py-2">
-                    <a href="#"><i class="fa-solid fa-chart-simple"></i><span class="d-none d-md-inline-block ms-3">Stats</span></a>
+                    <a href="#"><i class="fa-solid fa-chart-simple"></i><span class="d-none d-lg-inline-block ms-3">Stats</span></a>
                 </div>
                 <div class="icons py-2">
-                    <a href="#"><i class="fa-solid fa-signal"></i><span class="d-none d-md-inline-block ms-3">Signals</span></a>
+                    <a href="#"><i class="fa-solid fa-signal"></i><span class="d-none d-lg-inline-block ms-3">Signals</span></a>
                 </div>
 
             </div>
 
             <div class="aside-bot text-center d-flex justify-content-center py-2">
                 <div class="icons py-2">
-                    <a href="#"><i class="fa-solid fa-gear"></i><span class="d-none d-md-inline-block ms-3">Admin</span></a>
+                    <a href="#"><i class="fa-solid fa-gear"></i><span class="d-none d-lg-inline-block ms-3">Admin</span></a>
                 </div>
             </div>
 
@@ -215,7 +215,7 @@
                 <div class="container-fluid">
                     <div class="row d-md-flex">
 
-                        <div class="col-12 col-md-7">
+                        <div class="col-12 col-lg-7">
 
                             <div class="card my-4">
                                 <div class="card-header">
@@ -226,8 +226,8 @@
                                         <thead>
                                           <tr>
                                             <th scope="col">Nome</th>
-                                            <th scope="col" class="col-2 text-center">Data inizio</th>
-                                            <th scope="col" class="col-2 text-center">ROI</th>
+                                            <th scope="col" class="col-2 text-center d-none">Data inizio</th>
+                                            <th scope="col" class="col-2 text-center d-none">ROI</th>
                                             <th scope="col" class="col-2 text-center">Stato</th>
                                             <th scope="col" class="col-2 text-center">Azioni</th>
                                           </tr>
@@ -235,8 +235,8 @@
                                         <tbody>
                                             <tr>
                                                 <th scope="row"><img src="img/class-avatar.jpg" class="img-class me-2" alt="">Classe 77</th>
-                                                <td>15 Feb 2021</td>
-                                                <td>20%</td>
+                                                <td class="d-none">15 Feb 2021</td>
+                                                <td class="d-none">20%</td>
                                                 <td><span class="badge text-bg-success">Done</span></td>
                                                 <td>
                                                 <button class="btn-custom"><i class="fa-solid fa-pencil"></i></button>
@@ -245,8 +245,8 @@
                                             </tr>
                                             <tr>
                                                 <th scope="row"><img src="img/class-avatar.jpg" class="img-class me-2" alt="">Classe 75</th>
-                                                <td>27 Feb 2021</td>
-                                                <td>20%</td>
+                                                <td class="d-none">27 Feb 2021</td>
+                                                <td class="d-none">20%</td>
                                                 <td><span class="badge bg-warning">Process</span></td>
                                                 <td>
                                                 <button class="btn-custom"><i class="fa-solid fa-pencil"></i></button>
@@ -255,8 +255,8 @@
                                             </tr>
                                             <tr>
                                                 <th scope="row"><img src="img/class-avatar.jpg" class="img-class me-2" alt="">Classe 80</th>
-                                                <td>18 Feb 2021</td>
-                                                <td>20%</td>
+                                                <td class="d-none">18 Feb 2021</td>
+                                                <td class="d-none">20%</td>
                                                 <td><span class="badge text-bg-success">Done</span></td>
                                                 <td>
                                                 <button class="btn-custom"><i class="fa-solid fa-pencil"></i></button>
@@ -265,8 +265,8 @@
                                             </tr>
                                             <tr>
                                                 <th scope="row"><img src="img/class-avatar.jpg" class="img-class me-2" alt="">Classe 72</th>
-                                                <td>10 Feb 2021</td>
-                                                <td>20%</td>
+                                                <td class="d-none">10 Feb 2021</td>
+                                                <td class="d-none">20%</td>
                                                 <td><span class="badge bg-warning">Process</span></td>
                                                 <td>
                                                 <button class="btn-custom"><i class="fa-solid fa-pencil"></i></button>
@@ -275,8 +275,8 @@
                                             </tr>
                                             <tr>
                                                 <th scope="row"><img src="img/class-avatar.jpg" class="img-class me-2" alt="">Classe 74</th>
-                                                <td>9 Feb 2021</td>
-                                                <td>20%</td>
+                                                <td class="d-none">9 Feb 2021</td>
+                                                <td class="d-none">20%</td>
                                                 <td><span class="badge text-bg-danger">Failed</span></td>
                                                 <td>
                                                 <button class="btn-custom"><i class="fa-solid fa-pencil"></i></button>
@@ -285,8 +285,8 @@
                                             </tr>
                                             <tr>
                                                 <th scope="row"><img src="img/class-avatar.jpg" class="img-class me-2" alt="">Classe 79</th>
-                                                <td>7 Feb 2021</td>
-                                                <td>20%</td>
+                                                <td class="d-none">7 Feb 2021</td>
+                                                <td class="d-none">20%</td>
                                                 <td><span class="badge text-bg-success">Done</span></td>
                                                 <td>
                                                 <button class="btn-custom"><i class="fa-solid fa-pencil"></i></button>
@@ -295,8 +295,8 @@
                                             </tr>
                                             <tr>
                                                 <th scope="row"><img src="img/class-avatar.jpg" class="img-class me-2" alt="">Classe 70</th>
-                                                <td>4 Feb 2021</td>
-                                                <td>20%</td>
+                                                <td class="d-none">4 Feb 2021</td>
+                                                <td class="d-none">20%</td>
                                                 <td><span class="badge text-bg-danger">Failed</span></td>
                                                 <td>
                                                 <button class="btn-custom"><i class="fa-solid fa-pencil"></i></button>
@@ -305,8 +305,8 @@
                                             </tr>
                                             <tr>
                                                 <th scope="row"><img src="img/class-avatar.jpg" class="img-class me-2" alt="">Classe 85</th>
-                                                <td>20 Feb 2021</td>
-                                                <td>20%</td>
+                                                <td class="d-none">20 Feb 2021</td>
+                                                <td class="d-none">20%</td>
                                                 <td><span class="badge text-bg-success">Done</span></td>
                                                 <td>
                                                 <button class="btn-custom"><i class="fa-solid fa-pencil"></i></button>
@@ -366,7 +366,7 @@
 
                         </div>
 
-                        <div class="col-12 col-md-5">
+                        <div class="col-12 col-lg-5">
 
                             <div class="card my-4">
                                 

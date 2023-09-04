@@ -23,7 +23,7 @@ header i{
 }
 
 .logo-small img{
-    width: 100%;
+    width: 50px;
 }
 
 .logo-big{
@@ -134,7 +134,7 @@ main{
 
 /* MEDIA QUERY */
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:992px) {
     aside{
         width: 150px;
     }
